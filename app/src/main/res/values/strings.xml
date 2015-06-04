@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Proj-0-Portfolio</string>
+    <string name="title_activity_projects">Portfolio</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Project Titles -->
+    <string name="title_project_1">Spotify Streamer</string>
+    <string name="title_project_2">Scores App</string>
+    <string name="title_project_3">Library App</string>
+    <string name="title_project_4">Build It Bigger</string>
+    <string name="title_project_5">XYZ Reader</string>
+    <string name="title_project_capstone">Capstone: My Own App</string>
+</resources>

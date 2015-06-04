@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ButtonText" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">@color/Grey900</item>
+        <item name="android:background">@color/LightGreenA400</item>
+        <item name="android:textSize">@dimen/text_button_projects</item>
+        <item name="android:elevation">2dp</item>
+    </style>
+</resources>

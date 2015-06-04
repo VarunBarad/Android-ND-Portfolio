@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:buttonStyle">@style/ButtonText</item>
+    </style>
+
+    <style name="ButtonText" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">@color/Grey900</item>
+        <item name="android:background">@color/LightGreenA400</item>
+        <item name="android:textSize">@dimen/text_button_projects</item>
+    </style>
+
+</resources>
