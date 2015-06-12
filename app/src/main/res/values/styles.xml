@@ -6,9 +6,10 @@
         <item name="android:buttonStyle">@style/ButtonText</item>
     </style>
 
+    <!-- Button style -->
     <style name="ButtonText" parent="Widget.AppCompat.Button">
-        <item name="android:textColor">@color/Grey900</item>
-        <item name="android:background">@color/LightGreenA400</item>
+        <item name="android:textColor">@color/button_text</item>
+        <item name="android:background">@color/button_background</item>
         <item name="android:textSize">@dimen/text_button_projects</item>
     </style>
 

@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="buttonStyle">@style/ButtonText</item>
+        <item name="android:windowBackground">@color/activity_background</item>
+        <item name="colorPrimary">@color/activity_background</item>
+        <item name="colorPrimaryDark">@color/actionbar_background</item>
+    </style>
+
+    <!-- Button style -->
     <style name="ButtonText" parent="Widget.AppCompat.Button">
-        <item name="android:textColor">@color/Grey900</item>
-        <item name="android:background">@color/LightGreenA400</item>
+        <item name="android:textColor">@color/button_text</item>
+        <item name="android:background">@color/button_background</item>
         <item name="android:textSize">@dimen/text_button_projects</item>
-        <item name="android:elevation">2dp</item>
+        <item name="elevation">2dp</item>
     </style>
 </resources>
